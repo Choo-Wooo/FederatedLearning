@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-09-18T07:42:16.699014",
+    "startedAt": "2022-09-18T07:42:16.092875",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/Choo/PycharmProjects/Gwangggi/Week1/simpleCNN.py",
+    "codePath": "simpleCNN.py",
+    "host": "DESKTOP-VNI9EO4",
+    "username": "Choo",
+    "executable": "C:\\Users\\Choo\\anaconda3\\envs\\gwangggi\\python.exe"
+}

@@ -1,0 +1,47 @@
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+[Train] Epoch: 1/5:  88%|████████▊ | 577/656 [00:12<00:01, 57.97batch/s, accuracy=0.869, loss=0.155]
+[Train] Epoch: 1/5: 100%|██████████| 656/656 [00:13<00:00, 48.66batch/s, accuracy=0.981, loss=0.155]
+
+
+
+
+
+[Train] Epoch: 2/5: 100%|██████████| 656/656 [00:11<00:00, 57.19batch/s, accuracy=1, loss=4.71e-5]
+[Train] Epoch: 3/5:   6%|▋         | 42/656 [00:00<00:10, 57.55batch/s, accuracy=0.0686, loss=1.85e-6]
+
+
+
+
+
+[Train] Epoch: 3/5: 100%|██████████| 656/656 [00:11<00:00, 57.32batch/s, accuracy=1, loss=1.49e-5]
+[Train] Epoch: 4/5:  11%|█         | 72/656 [00:01<00:10, 56.42batch/s, accuracy=0.116, loss=1.08e-6]
+
+
+
+
+[Train] Epoch: 4/5: 100%|██████████| 656/656 [00:11<00:00, 57.02batch/s, accuracy=1, loss=6.98e-6]
+
+[Train] Epoch: 5/5:  20%|██        | 132/656 [00:02<00:09, 57.42batch/s, accuracy=0.207, loss=9.41e-7]
+
+
+
+
+[Train] Epoch: 5/5: 100%|██████████| 656/656 [00:11<00:00, 57.26batch/s, accuracy=1, loss=3.39e-6]
+Traceback (most recent call last):
+  File "C:/Users/Choo/PycharmProjects/Applications and Open Challenges in Federated Learning/Week1/Run.py", line 101, in <module>
+    model = torch.load(f'Result/[ep{best_epoch}_{best_accuracy:0.6f}].pth').to(device)
+  File "C:\Users\Choo\anaconda3\envs\gwangggi\lib\site-packages\torch\serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "C:\Users\Choo\anaconda3\envs\gwangggi\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\Choo\anaconda3\envs\gwangggi\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'Result/[ep5_0.999999].pth'
+best model Info --> epoch: 5 | accuracy: 0.999999
+-------------------------------------------------------------------------------------------

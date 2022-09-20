@@ -1,0 +1,50 @@
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+[Train] Epoch: 1/5:  98%|█████████▊| 642/656 [00:14<00:00, 52.61batch/s, accuracy=0.962, loss=0.155]
+[Train] Epoch: 1/5: 100%|██████████| 656/656 [00:14<00:00, 45.25batch/s, accuracy=0.981, loss=0.155]
+
+
+
+
+
+[Train] Epoch: 2/5:  93%|█████████▎| 611/656 [00:11<00:00, 52.85batch/s, accuracy=0.936, loss=4.57e-5]
+[Train] Epoch: 2/5: 100%|██████████| 656/656 [00:12<00:00, 52.23batch/s, accuracy=1, loss=4.71e-5]
+
+
+
+
+
+[Train] Epoch: 3/5:  89%|████████▊ | 582/656 [00:11<00:01, 52.01batch/s, accuracy=0.892, loss=1.38e-5]
+[Train] Epoch: 3/5: 100%|██████████| 656/656 [00:12<00:00, 52.33batch/s, accuracy=1, loss=1.49e-5]
+
+
+
+
+
+[Train] Epoch: 4/5: 100%|██████████| 656/656 [00:12<00:00, 52.22batch/s, accuracy=1, loss=6.98e-6]
+[Train] Epoch: 5/5:   1%|          | 6/656 [00:00<00:12, 50.85batch/s, accuracy=0.0122, loss=4e-8]
+
+
+
+
+
+
+[Train] Epoch: 5/5:  97%|█████████▋| 636/656 [00:12<00:00, 51.76batch/s, accuracy=0.971, loss=3.34e-6]
+best model Info --> epoch: 5 | accuracy: 0.999999
+[Train] Epoch: 5/5: 100%|██████████| 656/656 [00:12<00:00, 52.07batch/s, accuracy=1, loss=3.39e-6]
+Traceback (most recent call last):
+  File "C:/Users/Choo/PycharmProjects/Gwangggi/Week1/simpleCNN.py", line 101, in <module>
+    model = torch.load(f'best_model/[ep{best_epoch}_{best_accuracy:0.6f}].pth').to(device)
+  File "C:\Users\Choo\anaconda3\envs\gwangggi\lib\site-packages\torch\serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "C:\Users\Choo\anaconda3\envs\gwangggi\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\Choo\anaconda3\envs\gwangggi\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'best_model/[ep5_0.999999].pth'

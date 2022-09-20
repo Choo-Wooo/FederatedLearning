@@ -1,0 +1,23 @@
+2022-09-18 18:20:43,984 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Configure stats pid to 13704
+2022-09-18 18:20:43,984 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Choo\.config\wandb\settings
+2022-09-18 18:20:43,984 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Choo\PycharmProjects\Applications and Open Challenges in Federated Learning\Week1\wandb\settings
+2022-09-18 18:20:43,984 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-18 18:20:43,984 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Run.py', 'program': 'C:/Users/Choo/PycharmProjects/Applications and Open Challenges in Federated Learning/Week1/Run.py'}
+2022-09-18 18:20:43,985 INFO    MainThread:13704 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\Choo\PycharmProjects\Applications and Open Challenges in Federated Learning\Week1\wandb\run-20220918_182043-owx49eiv\logs\debug.log
+2022-09-18 18:20:43,985 INFO    MainThread:13704 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\Choo\PycharmProjects\Applications and Open Challenges in Federated Learning\Week1\wandb\run-20220918_182043-owx49eiv\logs\debug-internal.log
+2022-09-18 18:20:43,985 INFO    MainThread:13704 [wandb_init.py:init():516] calling init triggers
+2022-09-18 18:20:43,985 INFO    MainThread:13704 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-09-18 18:20:43,986 INFO    MainThread:13704 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Configure stats pid to 13704
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Choo\.config\wandb\settings
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Choo\PycharmProjects\Applications and Open Challenges in Federated Learning\Week1\wandb\settings
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Run.py', 'program': 'C:/Users/Choo/PycharmProjects/Applications and Open Challenges in Federated Learning/Week1/Run.py'}
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\Choo\PycharmProjects\Applications and Open Challenges in Federated Learning\Week1\wandb\run-20220918_182055-rg4nvg86\logs\debug.log
+2022-09-18 18:20:55,702 INFO    MainThread:13704 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\Choo\PycharmProjects\Applications and Open Challenges in Federated Learning\Week1\wandb\run-20220918_182055-rg4nvg86\logs\debug-internal.log
+2022-09-18 18:20:55,703 INFO    MainThread:13704 [wandb_init.py:init():516] calling init triggers
+2022-09-18 18:20:55,703 INFO    MainThread:13704 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-09-18 18:20:55,703 INFO    MainThread:13704 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-09-18 18:21:13,594 WARNING MsgRouterThr:13704 [router.py:message_loop():77] message_loop has been closed
