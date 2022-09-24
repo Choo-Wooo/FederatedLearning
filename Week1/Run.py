@@ -57,7 +57,6 @@ best_epoch = 0
 for epoch in range(epochs):
     epoch_accuracy = 0
     epoch_loss = 0
-    # wandb.init(project='인공지능 응용', entity='Homework#1')
     wandb.init(project="homework1", entity="choo")
 
     with tqdm(train_loader, unit='batch') as train_epoch:
